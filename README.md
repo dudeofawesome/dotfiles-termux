@@ -5,5 +5,6 @@ My set of Termux config files
 
 Get set up by running the following in a Termux instance
 ```bash
+apt install curl
 curl -L https://raw.githubusercontent.com/dudeofawesome/dotfiles-termux/master/get.sh | bash
 ```
