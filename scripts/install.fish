@@ -1,9 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/env fish
 
-echo "Install Oh My Fish"
-echo ""
-curl -L https://get.oh-my.fish | fish
-
 echo "Install OMF extensions"
 echo ""
 omf install agnoster
