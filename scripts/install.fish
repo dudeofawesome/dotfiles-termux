@@ -14,13 +14,13 @@ echo "Install utilities"
 echo ""
 set PACKAGES clang cmake coreutils curl grep less libyaml most nano nmap nodejs openssh python ruby tmux wget
 for PKG in ($PACKAGES)
-  pkg install $PKG
+  apt install -y $PKG
 end
 
 echo "Install node modules"
 echo ""
 npm install -g yarn
-yarn global add n 
+yarn global add n
 
 echo "Install nodejs"
 echo ""
@@ -29,7 +29,6 @@ n lts
 
 echo "Install vim"
 echo ""
-pkg install vim
+apt install -y vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim -c VundleUpdate -c quitall
-

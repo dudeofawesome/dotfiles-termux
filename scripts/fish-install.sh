@@ -2,7 +2,7 @@
 
 echo "Installing Fish Shell"
 echo ""
-pkg install fish
+apt install -y fish
 
 fish install.fish
 
