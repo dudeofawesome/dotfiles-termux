@@ -1,4 +1,4 @@
-#!$PREFIX/bin/env bash
+#!/data/data/com.termux/files/usr/bin/env bash
 
 apt install -y git
 mkdir github
