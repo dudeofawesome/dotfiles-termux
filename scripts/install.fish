@@ -12,7 +12,7 @@ omf install termux
 
 echo "Install utilities"
 echo ""
-set PACKAGES wget curl nmap libyaml cmake less most nodejs yarn
+set PACKAGES clang cmake coreutils curl grep less libyaml most nano nmap nodejs openssh python ruby tmux wget
 for PKG in ($PACKAGES)
   pkg install $PKG
 end
