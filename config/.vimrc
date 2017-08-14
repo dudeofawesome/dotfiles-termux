@@ -1,4 +1,4 @@
-set shell=bash
+set shell=/data/data/com.termux/files/usr/bin/bash
 
 set nocompatible
 filetype off
