@@ -7,7 +7,10 @@ chsh -s fish
 
 echo "Install Oh My Fish"
 echo ""
+mkdir ~/downloads
+pushd ~/downloads
 curl -L https://get.oh-my.fish > install.fish
 fish install.fish --noninteractive --yes
+popd
 
 fish install.fish
