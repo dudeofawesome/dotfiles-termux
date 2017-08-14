@@ -3,6 +3,7 @@
 echo "Installing Fish Shell"
 echo ""
 apt install -y fish
+chsh -s fish
 
 echo "Install Oh My Fish"
 echo ""
