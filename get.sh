@@ -9,3 +9,5 @@ cd dotfiles-termux
 ./install.sh
 
 popd
+
+fish
